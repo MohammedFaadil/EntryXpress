@@ -30,7 +30,7 @@ if not st.session_state.logged_in:
 
     if auth_mode == "Sign In":
         login_email = st.sidebar.text_input("Enter Email or Phone")
-        otp = st.sidebar.text_input("Enter OTP (simulated)", max_chars=6)
+        otp = st.sidebar.text_input("Enter OTP (simulated: 123456)", max_chars=6)
         login_button = st.sidebar.button("Sign In")
 
         if login_button:
