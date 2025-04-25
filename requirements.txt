@@ -3,3 +3,4 @@ geopy
 pandas
 folium
 streamlit-folium
+geocoder
